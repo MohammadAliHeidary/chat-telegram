@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Telegram</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <section
+            class="grid grid-cols-1 grid-rows-[min-content_auto_min-content] bg-no-repeat bg-cover bg-chat max-w-4xl mx-auto h-dvh"
+        >
+            <div class="bg-[#212121] px-6 py-2 flex items-center gap-2.5">
+                <img
+                    src="./assets/images/avatar.png"
+                    alt="avatar"
+                    class="rounded-full size-10"
+                />
+                <div class="flex flex-col">
+                    <span class="text-lg text-white">Mohammad Amir</span>
+                    <span class="text-sm text-[#aaa]">last seen recently</span>
+                </div>
+            </div>
+
+            <div
+                class="p-10 *:text-white *:text-base *:px-4 *:py-2 *:rounded-xl overflow-y-auto h-full *:mt-3"
+            >
+                <div class="bg-[#766ac8] w-fit ml-auto max-w-[66%]">
+                    <span class="text-xs text-white/60 ml-auto">20:23</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+                <div class="bg-[#212121] w-fit mr-auto max-w-[66%]">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    consectetur adipisicing
+                    <br />
+                    consectetur adipisicing elit.
+                    <span class="text-xs text-white/60 mr-auto">20:23</span>
+                </div>
+                <div class="bg-[#766ac8] w-fit ml-auto max-w-[66%]">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    consectetur adipisicing
+                    <br />
+                    consectetur adipisicing elit.
+                    <span class="text-xs text-white/60 ml-auto">20:23</span>
+                </div>
+                <div class="bg-[#212121] w-fit mr-auto max-w-[66%]">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <span class="text-xs text-white/60 mr-auto">20:23</span>
+                </div>
+            </div>
+
+            <div class="p-5 flex gap-2.5 items-center">
+                <div
+                    class="bg-[#212121] rounded-lg w-full flex items-center justify-center gap-3 px-3"
+                >
+                    <img
+                        src="./assets/icons/emojy.svg"
+                        alt="emojy"
+                        class="size-6 cursor-pointer"
+                    />
+                    <input
+                        type="text"
+                        class="bg-transparent py-3 w-full outline-none text-white"
+                        placeholder="Message"
+                    />
+                </div>
+                <button class="p-2.5 size-fit rounded-full bg-[#212121]">
+                    <img
+                        src="./assets/icons/send.svg"
+                        alt="send"
+                        class="size-6"
+                    />
+                </button>
+            </div>
+        </section>
+    </body>
+</html>
